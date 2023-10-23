@@ -1,0 +1,51 @@
+---
+title: "LLM Write-Up"
+author: "Kenneth Ssekimpi & Levy Banda"
+student_number: "SSKKEN001 & BNDLEV001"
+assignment: "Assignment 2"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+## Usage
+
+We used several Large Language Models (LLMs) for several tasks within the scope of this project, namely chatGPT (v3.5) and Bard. chatGPT was developed by OpenAI, whilst Bard is a Google product (hence requires a Google sign in in order to use).
+
+Here's how we utilized them and a critical reflection on their performance and lessons learned:
+
+1.  **Research:**
+    1.  We used LLMs to quickly and efficiently assist us in research areas concerning natural language processing and political science, with a particular focus on generating journal article summaries in a concise manner.
+2.  **Code Generation:**
+    1.  We used LLMs to generate code, assist with debugging errant code, and explain code we didn't understand or needed additional context in through persistent prompts. Persistent, because there were occasions where the LLMs suggested the wrong code or wrong articles (Bard even made up a few that don't exist!) for the problem/s we were trying to solve.
+3.  **Model Interpretation**:
+    1.  We used LLMs to help evaluate the performance of our models and interpret the results.
+
+## How we used the LLMs:
+
+We used the LLMs by providing it with natural language instructions describing the tasks we wanted to complete. For example, to generate a summary of a journal article, we would prompt the LLM with something like "*Summarize the following article and provide key takeaways: \[article\]*". The LLM would then generate a summary of the article in plain English, including key statistics and insights.
+
+We also used them for code generation for specific tasks. For example, to generate code to plot the relevant metrics to assess the performance of our LDA model, we'd prompt them with something close to: "*How can we plot LDA's metrics in a neat format for our quarto report, taking up minimal space. Please provide an example with code that is specific to my previous prompts*." The LLM would provide context-relevant solution/s in that regard.
+
+Lastly, we used them to interpret the results of our models. This would often supplement our own analysis as in some cases, point out things we've missed. An example would be: "*I've written the following for my results section. Given my previous prompts, is there anything else I can add?*"
+
+## Critical reflection on the performance of the LLM:
+
+We were impressed with the performance of both LLMs. Where we were not satisfied with an answer for one, the other was able to better guide us (even with the same prompt). For the most part, they were able to answer our questions, give out ideas, summarize large bodies of text, and explain concepts. Where Bard and chatGPT differ the most is that a) chatGPT only draws information from 2021 or earlier, while Bard can draw real-time information from the Internet and b) chatGPT doesn't provide sources, which Bard does.
+
+It's also important to keep in mind (regarding all LLMs) that:
+
+-   They are still under development, so they sometimes make mistakes. It is important to review their output.
+
+-   They are trained on massive datasets of text and code, thus biases exist. These should be mitigated.
+
+-   They don't replace human judgement. They are an augmentative tool instead.
+
+## Closing Thoughts
+
+LLMs can be a valuable tool for assisting with data science work. They can help automate many of time-consuming tasks involved in data cleaning, exploration, and model development and evaluation. They can also generate reports and presentation that communicate findings in a clear and concise way.
+
+However, it is important to use LLMs carefully and to be aware of their limitations.
+
+Overall, I believe LLMs have the potential to revolutionize the knowledge related work by making its users more productive.
